@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "AirSync-Lite",
+    "folders": "Folders",
+    "devices": "Devices",
+    "history": "History",
+    "conflicts": "Conflicts",
+    "settings": "Settings",
+    "dashboard": "Dashboard"
+  },
+  "folders": {
+    "title": "Folders",
+    "actions": {
+      "add": "Add",
+      "refresh": "Refresh",
+      "browse": "Browse",
+      "sync": "Sync",
+      "pause": "Pause",
+      "resume": "Resume",
+      "remove": "Remove",
+      "refreshTooltip": "Refresh stats",
+      "removeTooltip": "Remove folder"
+    },
+    "columns": {
+      "name": "Name",
+      "path": "Path",
+      "mode": "Mode",
+      "files": "Files",
+      "size": "Size",
+      "lastScan": "Last scan",
+      "actions": "Actions"
+    },
+    "fields": {
+      "path": "Path",
+      "name": "Name",
+      "mode": "Mode"
+    },
+    "modes": {
+      "sendReceive": "Send & Receive",
+      "receiveOnly": "Receive only"
+    },
+    "addTitle": "Add folder",
+    "removeConfirmTitle": "Remove folder",
+    "removeConfirmDescription": "Folder \"{{name}}\" will be removed from synchronization. Files on disk will remain."
+  },
+  "devices": {
+    "title": "Devices",
+    "refresh": "Refresh list",
+    "connect_device": "Connect device",
+    "generate_qr": "Show QR",
+    "show_qr": "Show QR",
+    "status": "Status",
+    "platform": "Platform",
+    "disconnect": "Disconnect",
+    "details": "Details",
+    "pairDialogTitle": "Connect device",
+    "pairDialogDescription": "Open AirSync-Lite on the other device and choose \"Connect device\".",
+    "qrDialogTitle": "Scan the QR code",
+    "copyCode": "Copy code",
+    "codeCopied": "Code copied",
+    "manualCodePlaceholder": "6-digit code",
+    "pair": "Connect",
+    "unpairConfirm": "Disconnect this device?",
+    "unpair": "Disconnect",
+    "qrInstructions": "Enter this code on the other device or scan the QR code.",
+    "pairingError": "Failed to pair device",
+    "more_details": "Details",
+    "scan_qr": "Scan QR code",
+    "connect_device_instructions": "On the other device open AirSync-Lite and choose ‘Connect device’.",
+    "pairing_code": "6-digit code",
+    "close": "Close"
+  },
+  "common": {
+    "loading": "Loading...",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close"
+  }
+}

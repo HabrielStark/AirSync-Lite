@@ -1,0 +1,34 @@
+{
+  "entryPoints": ["src/main", "src/shared"],
+  "entryPointStrategy": "expand",
+  "out": "docs/api",
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/tests/**",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "excludeInternal": true,
+  "readme": "README.md",
+  "plugin": [],
+  "sort": ["source-order"],
+  "hideGenerator": false,
+  "includeVersion": true,
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": true
+  },
+  "categorizeByGroup": true,
+  "defaultCategory": "Other",
+  "categoryOrder": [
+    "Core",
+    "Network",
+    "Sync",
+    "Security",
+    "Utils",
+    "*"
+  ]
+}

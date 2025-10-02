@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "AirSync-Lite",
+    "folders": "Папки",
+    "devices": "Устройства",
+    "history": "История",
+    "conflicts": "Конфликты",
+    "settings": "Настройки",
+    "dashboard": "Обзор"
+  },
+  "folders": {
+    "title": "Папки",
+    "actions": {
+      "add": "Добавить",
+      "refresh": "Обновить",
+      "browse": "Обзор",
+      "sync": "Синхронизировать",
+      "pause": "Пауза",
+      "resume": "Возобновить",
+      "remove": "Удалить",
+      "refreshTooltip": "Обновить статистику",
+      "removeTooltip": "Удалить папку"
+    },
+    "columns": {
+      "name": "Название",
+      "path": "Путь",
+      "mode": "Режим",
+      "files": "Файлов",
+      "size": "Размер",
+      "lastScan": "Последнее сканирование",
+      "actions": "Действия"
+    },
+    "fields": {
+      "path": "Путь",
+      "name": "Название",
+      "mode": "Режим"
+    },
+    "modes": {
+      "sendReceive": "Синхронизация",
+      "receiveOnly": "Только получение"
+    },
+    "addTitle": "Добавить папку",
+    "removeConfirmTitle": "Удалить папку",
+    "removeConfirmDescription": "Папка \"{{name}}\" будет удалена из синхронизации. Файлы на диске останутся."
+  },
+  "devices": {
+    "title": "Устройства",
+    "refresh": "Обновить список",
+    "connect_device": "Подключить устройство",
+    "generate_qr": "Показать QR",
+    "show_qr": "Показать QR",
+    "status": "Статус",
+    "platform": "Платформа",
+    "disconnect": "Отключить",
+    "details": "Подробнее",
+    "pairDialogTitle": "Подключить устройство",
+    "pairDialogDescription": "На другом устройстве откройте AirSync-Lite и выберите «Подключить устройство».",
+    "qrDialogTitle": "Сканируйте QR-код",
+    "copyCode": "Копировать код",
+    "codeCopied": "Код скопирован",
+    "manualCodePlaceholder": "6-значный код",
+    "pair": "Подключить",
+    "unpairConfirm": "Отключить это устройство?",
+    "unpair": "Отключить",
+    "qrInstructions": "Введите этот код на другом устройстве или отсканируйте QR-код.",
+    "pairingError": "Не удалось подключить устройство",
+    "more_details": "Подробнее",
+    "scan_qr": "Сканируйте QR-код",
+    "connect_device_instructions": "На другом устройстве откройте AirSync-Lite и выберите «Подключить устройство».",
+    "pairing_code": "6-значный код",
+    "close": "Закрыть"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "ok": "ОК",
+    "cancel": "Отмена",
+    "close": "Закрыть"
+  }
+}
