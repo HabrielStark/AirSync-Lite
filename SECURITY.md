@@ -1,13 +1,13 @@
 # Security Policy
 
 ## Disclosure
-- Сообщайте о найденных уязвимостях на security@airsync-lite.io
-- Не публикуйте информацию до фикса
+- Report any vulnerabilities found to security@airsync-lite.io
+- Do not publish information until they are fixed
 
-## Поддерживаемые версии
-- master/main — активная
+## Supported Versions
+- master/main — active
 
-## Проверки
+## Checks
 - npm audit
 - trivy
-- SAST в CI
+- SAST in CI
